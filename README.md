@@ -12,24 +12,24 @@
 Sandbox link - https://codesandbox.io/s/venus-candidate-test-xwixu
 Please fork from this sandbox.
 
-
 ## Summary 🤏
 
 The objective of this assignment is to test your skills as a frontend developer.
-There is no time limit for this task and you can hand it in whenever you like. Our estimated time investment is up to 8 hours.
+There is no time limit for this task and you can hand it in whenever you like. Our estimated time investment is up to 6-8 hours.
 You are free to use whichever 3rd party libraries you desire.
 
-You are provided with a git repository containing a [GatsbyJS](https://gatsbyjs.com/) / [React](https://reactjs.org/) based project, which you will be required to change/add code to according to the instructions below.
+You are provided with a project containing a [GatsbyJS](https://gatsbyjs.com/) / [React](https://reactjs.org/) based application, which you will be required to change/add code to according to the instructions below.
 
 ## Overview 🪟
 
 The project you are provided with is a simple blog website containing several blog posts.
-The content is written in [Markdown](https://www.markdownguide.org/) and is sourced through local _.mdx_ files. It is built using similar infrastructure our team works with on a daily basis.
+The content is written in [Markdown](https://www.markdownguide.org/) and is sourced through local [_.mdx_](https://www.gatsbyjs.com/docs/glossary/mdx/) files. It is built using similar infrastructure our team works with on a daily basis.
 
 Your task will be to implement a React component that can be used in-content, which given a country displays some Covid-19 case data in a simple chart.
 
 ## Setup ⚙️
 
+(use this if working locally, otherwise codesandbox does this for you)
 1. clone/unzip the repo from the above url
 2. run `npm install` from the root folder (`/venus-candidate-test`)
 3. run `npm start` to initialize the development server
@@ -39,7 +39,7 @@ Your task will be to implement a React component that can be used in-content, wh
 
 ## Task Details ℹ️
 
-Your goal is to implement the Covid19Chart component found in /src/component/covid19-chart.js.
+Your goal is to implement the Covid19Chart component found in `/src/component/covid19-chart.js`.
 The input for this component will be a single prop - `country`.
 The output is expected to be a simple line chart which displays the number of live Covid19 cases in the past year.
 
@@ -49,13 +49,8 @@ You can view the empty blog post in the browser after starting the dev server lo
 Data should be taken from [covid19api.com](https://covid19api.com) (free for use).
 
 ### **Please note** 📝:
-1. You will not be tested on how “pretty” your charts look, but a well presentable UI is definitely expected.
+1. You are encouraged to send a short implementation plan after going over the requirements and code, and before starting the actual development. This can potentially save you time and help you focus on the key concepts of this task. 
 2. Page performance and speed will be examined and are important. Try your best to take advantage of the provided infrastructure abilities, to make the browsing and rendering experience slick and smooth.
-3. The final version of the site should work in production mode(i.e after build).
-
-## Contact Us ☎️
-Feel free to contact us with any questions or further instructions.
-
-Tzafrir Harazy - tzafrir.h@taboola.com
-Nitzan Volman - nitzan.v@taboola.com
+3. the charts may be extremely simple, however should still be very easy to read and understand. If you make them pretty, that`s ok too :)
+4. The final version of the site should work in production mode(i.e after build).
 
