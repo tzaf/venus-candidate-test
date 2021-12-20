@@ -7,6 +7,12 @@
   Venus Candidate Test
 </h1>
 
+## Location
+
+Sandbox link - https://codesandbox.io/s/venus-candidate-test-xwixu
+Please fork from this sandbox.
+
+
 ## Summary 🤏
 
 The objective of this assignment is to test your skills as a frontend developer.
