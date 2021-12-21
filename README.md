@@ -48,9 +48,24 @@ You can view the empty blog post in the browser after starting the dev server lo
 
 Data should be taken from [covid19api.com](https://covid19api.com) (free for use).
 
+_Recommended_ - Data can also be taken as from the [taboola-cdn](https://cdn.taboola.com/covid19/covid19-country-data.json) in JSON format.
+
 ### **Please note** 📝:
 1. You are encouraged to send a short implementation plan after going over the requirements and code, and before starting the actual development. This can potentially save you time and help you focus on the key concepts of this task. 
-2. Page performance and speed will be examined and are important. Try your best to take advantage of the provided infrastructure abilities, to make the browsing and rendering experience slick and smooth.
+2. Page performance and speed **will be examined and are important**. Try your best to take advantage of the provided infrastructure abilities, to make the browsing and rendering experience slick and smooth.
 3. the charts may be extremely simple, however should still be very easy to read and understand. If you make them pretty, that`s ok too :)
 4. The final version of the site should work in production mode(i.e after build).
+
+### Additional Resources
+
+here are some GatsbyJS guides that can be very helpful for this task, though not mandatory.
+Expected reading time is around 35m.
+
+1. [Building with Components](https://www.gatsbyjs.com/docs/conceptual/building-with-components/)
+2. [GraphQL Concepts](https://www.gatsbyjs.com/docs/conceptual/graphql-concepts/)
+3. [Overview of the Gatsby Build Process](https://www.gatsbyjs.com/docs/conceptual/overview-of-the-gatsby-build-process/)
+4. [Rendering Options](https://www.gatsbyjs.com/docs/conceptual/rendering-options/)
+5. [Build Time and Client Runtime Data Fetching](https://www.gatsbyjs.com/docs/conceptual/data-fetching/)
+6. [Gatsby Core Philosophy](https://www.gatsbyjs.com/docs/conceptual/gatsby-core-philosophy/)
+7. [Understanding React Hydration](https://www.gatsbyjs.com/docs/conceptual/react-hydration/)
 
