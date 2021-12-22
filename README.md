@@ -9,7 +9,7 @@
 
 ## Location
 
-Sandbox link - https://codesandbox.io/s/venus-candidate-test-xwixu
+Sandbox link - https://codesandbox.io/s/taboola-venus-candidate-task-lj1of
 Please fork from this sandbox.
 
 ## Summary 🤏
